@@ -3,7 +3,7 @@ const webpack = require("webpack");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 const config = {
-	entry: "./src/js/index.ts",
+	entry: "./src/js/index.tsx",
 	output: {
 		filename: "bundle.js",
 		path: path.resolve(__dirname, "build")
